@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* intro text  */
+
+.intro {
+  position: absolute;
+  margin-top: 250px;
+  max-width: 50%;
+  font-family: "Poppins";
+  color: #559fe3;
+}
+
+.intro h1 {
+  font-size: 40px;
+  line-height: 1.3em;
+}
+
+.intro p {
+  color: #1b377d;
+}
+
+.darkBlueText {
+  color: #1b377d;
+}
+
+/* button style  */
+
+button {
+  margin-top: 30px;
+  background: #284a9e;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 150px;
+}
+
+button:hover {
+  background: #355ec5;
+  cursor: pointer;
+}
+
+/* intro pic  */
+
+.selfie {
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 800px;
+  height: 350px;
+  box-shadow: 25px 25px 0px 1px #284a9e;
+}
+
+/* portolio text */
+
+.portfolio {
+  position: relative;
+  float: right;
+  text-align: right;
+  max-width: 50%;
+  font-family: "Poppins";
+  color: #559fe3;
+}
+
+.portfolio h1 {
+  margin-bottom: 50px;
+}
+
+.portfolio h2 {
+  color: #1b377d;
+}
+
+.portfolio ul {
+  list-style: none;
+}
+
+.portfolio ul a {
+  text-decoration: none;
+  color: #559fe3;
+}
+
+.portfolio ul a:hover {
+  text-decoration: underline;
+}
+
+/* about section  */
+
+.about h1 {
+  color: #1b377d;
+}
+
+/* contact form  */
+
+.message-form {
+  margin-left: 700px;
+  margin-top: 200px;
+  width: 480px;
+  font-family: Helvetica;
+  background: #559fe3;
+  border: 1px solid black;
+}
+.message-form h1 {
+  margin-left: 10px;
+  color: white;
+}
+
+.message-form-inputs {
+  padding: 10px;
+  font-family: helvetica;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.message-form-actions {
+  padding: 10px;
+  background: #284a9e;
+  font-family: helvetica;
+  font-weight: bold;
+  overflow: auto;
+  height: 45px;
+}
+
+.message-form-inputs > * {
+  display: block;
+  width: 100%;
+}
+
+.titleLabel {
+  margin-top: 10px;
+}
+
+#message-title {
+  height: 30px;
+}
+
+#message-content {
+  height: 200px;
+}
+
+.contentLabel {
+  margin-top: 15px;
+}
+
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 5px 5px 10px;
+  background: #559fe3;
+  border: none;
+  box-shadow: 0px 1px 4px -1px rgb(75, 75, 75);
+  font-size: 16px;
+  padding: 8px 12px 8px 12px;
+}
+
+.button2:hover {
+  background: rgb(163, 207, 224);
+  cursor: pointer;
+}
+
+.material-icons {
+  padding-left: 10px;
+  font-size: 1em;
+}
